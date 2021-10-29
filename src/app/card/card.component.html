@@ -1,0 +1,13 @@
+<div class="row mt-4">
+    <div class="col-2 text-center" style="background-color: gainsboro;">
+        <h2 class="pt-3">{{data}}</h2>
+        <p>Points</p>
+    </div>
+    <div class="col-4 ">
+        <h3>{{card.name}}</h3>
+        <h5>{{card.link}}</h5>
+        <button type="button" (click)="aumentar()" class="btn btn-primary me-3">upvote</button>
+        <button type="button" (click)="quitar()" class="btn btn-danger">downvote</button>
+    </div>
+   
+</div>
